@@ -1,29 +1,32 @@
-# Mathematics Resources
+# Mathematics for Robotics Resources
 
 ## Overview
-Brief explanation of Mathematics and its fundamental role in robotics engineering.
+Robotics is applied mathematics. Linear algebra (transformations), calculus (optimization), and probability (filtering and perception) are the mathematical engines driving robot kinematics, dynamics, and AI.
 
 ## Official Documentation
-- [Mathematics Official Docs](https://example.com)
+- Not applicable for foundational mathematics, see textbooks and course notes.
 
 ## YouTube Lectures
-- [Relevant Lecture Series 1](https://youtube.com)
-- [Relevant Lecture Series 2](https://youtube.com)
+- [Essence of Linear Algebra (3Blue1Brown)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+- [Essence of Calculus (3Blue1Brown)](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+- [MIT 18.06 Linear Algebra (Gilbert Strang)](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/video_galleries/video-lectures/)
 
 ## Online Courses
-- [Recommended Course 1](https://coursera.org)
-- [Recommended Course 2](https://edx.org)
+- [Mathematics for Machine Learning Specialization (Coursera/Imperial College London)](https://www.coursera.org/specializations/mathematics-machine-learning)
+- [Probabilistic Systems Analysis (MIT OCW)](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/)
 
 ## Books
-- Standard Textbook on Mathematics
-- Reference Guide to Mathematics
+- *Probabilistic Robotics* by Sebastian Thrun, Wolfram Burgard, and Dieter Fox
+- *Linear Algebra and Its Applications* by Gilbert Strang
+- *Convex Optimization* by Stephen Boyd and Lieven Vandenberghe
 
 ## Research Papers
-- Foundational Paper on Mathematics Techniques
-- Recent Advances in Mathematics
+- (Refer to the AI/ML and SLAM sections for mathematically dense papers)
 
 ## GitHub Repositories
-- [Mathematics Open Source Implementation](https://github.com)
+- [SymPy](https://github.com/sympy/sympy) - Python library for symbolic mathematics (useful for deriving kinematics)
+- [Eigen](https://gitlab.com/libeigen/eigen) - C++ template library for linear algebra
 
 ## Tutorial Articles
-- [Step-by-step Guide to Mathematics](https://medium.com)
+- [Khan Academy: Multivariable Calculus](https://www.khanacademy.org/math/multivariable-calculus)
+- [Khan Academy: Statistics and Probability](https://www.khanacademy.org/math/statistics-probability)

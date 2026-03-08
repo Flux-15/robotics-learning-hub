@@ -1,29 +1,30 @@
-# Electronics Resources
+# Electronics & Power Systems Resources
 
 ## Overview
-Brief explanation of Electronics and its fundamental role in robotics engineering.
+Robots require power and physical interfaces. This domain covers circuit design, power systems (batteries, regulators), sensor integration, and motor driver configuration.
 
 ## Official Documentation
-- [Electronics Official Docs](https://example.com)
+- [Texas Instruments Component Datasheets](https://www.ti.com/)
+- [SparkFun Learn Tutorials](https://learn.sparkfun.com/)
+- [Adafruit Learning System](https://learn.adafruit.com/)
 
 ## YouTube Lectures
-- [Relevant Lecture Series 1](https://youtube.com)
-- [Relevant Lecture Series 2](https://youtube.com)
+- [EEVblog Electronics For Beginners](https://www.youtube.com/playlist?list=PLvOlSehNtuHt4q7Xh1E0eJm0A6T2f6A8y)
+- [GreatScott! Electronics Basics](https://www.youtube.com/playlist?list=PLAROrg3NQn7cyu01HpO-hkKkYIEqB8B84)
+- [Phil's Lab (PCB Design tutorials)](https://www.youtube.com/c/PhilsLab)
 
 ## Online Courses
-- [Recommended Course 1](https://coursera.org)
-- [Recommended Course 2](https://edx.org)
+- [MIT 6.002 Circuits and Electronics (OCW)](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)
+- [Coursera: Introduction to Electronics (Georgia Tech)](https://www.coursera.org/learn/electronics)
 
 ## Books
-- Standard Textbook on Electronics
-- Reference Guide to Electronics
-
-## Research Papers
-- Foundational Paper on Electronics Techniques
-- Recent Advances in Electronics
+- *The Art of Electronics* by Paul Horowitz and Winfield Hill
+- *Practical Electronics for Inventors* by Paul Scherz and Simon Monk
 
 ## GitHub Repositories
-- [Electronics Open Source Implementation](https://github.com)
+- [KiCad Source](https://gitlab.com/kicad/code/kicad) - Open-source PCB design suite
+- [SparkFun Hardware Repositories](https://github.com/sparkfun)
 
 ## Tutorial Articles
-- [Step-by-step Guide to Electronics](https://medium.com)
+- [How to Read a Schematic (SparkFun)](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic)
+- [Battery Technologies for Robotics](https://www.robotshop.com/community/tutorials/show/how-to-choose-a-battery)

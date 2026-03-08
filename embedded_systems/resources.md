@@ -1,29 +1,33 @@
 # Embedded Systems Resources
 
 ## Overview
-Brief explanation of Embedded Systems and its fundamental role in robotics engineering.
+Embedded systems bridge software and hardware. Microcontrollers (Arduino, ESP32, STM32) read sensor data via SPI/I2C/UART and command actuators in real-time.
 
 ## Official Documentation
-- [Embedded Systems Official Docs](https://example.com)
+- [Arduino Reference](https://www.arduino.cc/reference/en/)
+- [ESP-IDF Programming Guide (Espressif)](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
+- [STM32 HAL Documentation (STMicroelectronics)](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
+- [FreeRTOS Documentation](https://www.freertos.org/)
 
 ## YouTube Lectures
-- [Relevant Lecture Series 1](https://youtube.com)
-- [Relevant Lecture Series 2](https://youtube.com)
+- [FastBit Embedded Brain Academy (STM32/ARM)](https://www.youtube.com/c/FastbitEmbeddedBrainAcademy)
+- [DroneBot Workshop (Arduino/ESP32 Projects)](https://www.youtube.com/c/Dronebotworkshop1)
+- [Digi-Key Intro to RTOS](https://www.youtube.com/watch?v=F321087yYy4)
 
 ## Online Courses
-- [Recommended Course 1](https://coursera.org)
-- [Recommended Course 2](https://edx.org)
+- [EdX: Embedded Systems - Shape the World (UTAustinX)](https://www.edx.org/course/embedded-systems-shape-the-world-microcontroller)
+- [Coursera: Introduction to the Internet of Things and Embedded Systems (UCI)](https://www.coursera.org/learn/iot)
 
 ## Books
-- Standard Textbook on Embedded Systems
-- Reference Guide to Embedded Systems
-
-## Research Papers
-- Foundational Paper on Embedded Systems Techniques
-- Recent Advances in Embedded Systems
+- *Making Embedded Systems* by Elecia White
+- *Beginning C for Arduino* by Jack Purdum
+- *Mastering STM32* by Carmine Noviello
 
 ## GitHub Repositories
-- [Embedded Systems Open Source Implementation](https://github.com)
+- [arduino/ArduinoCore-avr](https://github.com/arduino/ArduinoCore-avr)
+- [espressif/esp-idf](https://github.com/espressif/esp-idf)
+- [micropython/micropython](https://github.com/micropython/micropython)
 
 ## Tutorial Articles
-- [Step-by-step Guide to Embedded Systems](https://medium.com)
+- [Random Nerd Tutorials (ESP32/ESP8266)](https://randomnerdtutorials.com/)
+- [Understanding SPI, I2C, and UART](https://learn.sparkfun.com/tutorials/serial-communication/all)

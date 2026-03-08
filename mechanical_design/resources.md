@@ -1,29 +1,30 @@
-# Mechanical Design Resources
+# Mechanical Design & Actuation Resources
 
 ## Overview
-Brief explanation of Mechanical Design and its fundamental role in robotics engineering.
+The physical embodiment of a robot. This domain encompasses 3D modeling (CAD), kinematics analysis, materials selection, structural integrity, and choosing actuators (servos, BLDCs, steppers).
 
 ## Official Documentation
-- [Mechanical Design Official Docs](https://example.com)
+- [SolidWorks Student Resources](https://www.solidworks.com/sw/education/student-resources.htm)
+- [Autodesk Fusion 360 Knowledge Network](https://knowledge.autodesk.com/support/fusion-360)
+- [McMaster-Carr Component Library](https://www.mcmaster.com/) (Standard hardware reference)
 
 ## YouTube Lectures
-- [Relevant Lecture Series 1](https://youtube.com)
-- [Relevant Lecture Series 2](https://youtube.com)
+- [Product Design Online (Fusion 360 Tutorials)](https://www.youtube.com/user/TheKHaug)
+- [Jeremy Fielding (Mechanical Design & Motors)](https://www.youtube.com/c/JeremyFieldingSr)
+- [Skyentific (Robot Arms & Actuators)](https://www.youtube.com/c/Skyentific)
 
 ## Online Courses
-- [Recommended Course 1](https://coursera.org)
-- [Recommended Course 2](https://edx.org)
+- [Coursera: 3D CAD Fundamental (National Taiwan University)](https://www.coursera.org/learn/3d-cad-fundamental)
+- [edX: Robotics: Mechanics and Control (Penn)](https://www.edx.org/course/robotics-kinematics-and-mathematical-foundations)
 
 ## Books
-- Standard Textbook on Mechanical Design
-- Reference Guide to Mechanical Design
-
-## Research Papers
-- Foundational Paper on Mechanical Design Techniques
-- Recent Advances in Mechanical Design
+- *Shigley's Mechanical Engineering Design* by Richard Budynas and Keith Nisbett
+- *Robot Mechanisms and Mechanical Devices Illustrated* by Paul Sandin
 
 ## GitHub Repositories
-- [Mechanical Design Open Source Implementation](https://github.com)
+- [ODrive Hardware & Software](https://github.com/odriverobotics/ODrive) - High-performance BLDC motor control
+- [OpenSCAD](https://github.com/openscad/openscad) - Solid 3D CAD Modeler
 
 ## Tutorial Articles
-- [Step-by-step Guide to Mechanical Design](https://medium.com)
+- [How to Select the Right Motor for your Robot (RobotShop)](https://www.robotshop.com/community/tutorials/show/how-to-choose-a-motor)
+- [3D Printing Best Practices (Prusa Knowledge Base)](https://help.prusa3d.com/)

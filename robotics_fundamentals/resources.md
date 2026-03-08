@@ -1,29 +1,30 @@
-# Robotics Fundamentals Resources
+# Robotics Fundamentals
 
 ## Overview
-Brief explanation of Robotics Fundamentals and its fundamental role in robotics engineering.
+The core algorithms of robotics form the bridge between raw mechanics and high-level autonomy. This includes Forward/Inverse Kinematics, Dynamics, Path Planning (A*, RRT), and state estimation (SLAM).
 
 ## Official Documentation
-- [Robotics Fundamentals Official Docs](https://example.com)
+- [Modern Robotics (Northwestern University) Online Supplements](http://modernrobotics.org/)
 
 ## YouTube Lectures
-- [Relevant Lecture Series 1](https://youtube.com)
-- [Relevant Lecture Series 2](https://youtube.com)
+- [Modern Robotics Mechanics, Planning, and Control (Kevin Lynch)](https://www.youtube.com/playlist?list=PLggLP4f-rq02vX0OQQ5vrCxbJrzamYDfx)
+- [Cyrill Stachniss: Introduction to Mobile Robotics](https://www.youtube.com/playlist?list=PLgnQpQtFTOGRsqKaaHwFq0A0BwS8j3oA5)
+- [Cyrill Stachniss: SLAM Course](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQrZ4O5QzbIHglYry8T00n1)
 
 ## Online Courses
-- [Recommended Course 1](https://coursera.org)
-- [Recommended Course 2](https://edx.org)
+- [Coursera Robotics Specialization (University of Pennsylvania)](https://www.coursera.org/specializations/robotics)
+- [edX: Robot Mechanics and Control (Seoul National Uni)](https://www.edx.org/course/robot-mechanics-and-control-part-i)
 
 ## Books
-- Standard Textbook on Robotics Fundamentals
-- Reference Guide to Robotics Fundamentals
-
-## Research Papers
-- Foundational Paper on Robotics Fundamentals Techniques
-- Recent Advances in Robotics Fundamentals
+- *Modern Robotics* by Kevin M. Lynch and Frank C. Park
+- *Springer Handbook of Robotics* by Bruno Siciliano and Oussama Khatib
+- *Planning Algorithms* by Steven M. LaValle (available online for free)
+- *Probabilistic Robotics* by Sebastian Thrun
 
 ## GitHub Repositories
-- [Robotics Fundamentals Open Source Implementation](https://github.com)
+- [AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) - Python sample codes for robotics algorithms
+- [NxRLab/ModernRobotics](https://github.com/NxRLab/ModernRobotics) - Code library for the Modern Robotics textbook
 
 ## Tutorial Articles
-- [Step-by-step Guide to Robotics Fundamentals](https://medium.com)
+- [Denavit-Hartenberg (D-H) Parameters Explained](https://blog.robotiq.com/how-to-calculate-a-robots-forward-kinematics-in-5-easy-steps)
+- [Introduction to A* Pathfinding](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
