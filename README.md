@@ -6,7 +6,9 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/Flux-15/robotics-learning-hub)
 [![ROS 2](https://img.shields.io/badge/ROS_2-Humble_%7C_Jazzy-22314E?logo=ros&logoColor=white)](https://docs.ros.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 [![Status](https://img.shields.io/badge/Status-Actively_Curated_2026-blue.svg)](https://github.com/Flux-15/robotics-learning-hub)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Flux-15/robotics-learning-hub)
 
@@ -229,7 +231,18 @@ We are building the world's most complete, rigorous, and accessible robotics hub
 
 1. Read our **[Contribution Guide](CONTRIBUTING.md)**.
 2. Check existing issues or submit a pull request.
-3. Adhere to our high-standard technical formatting and clear markdown standards.
+3. Review our **[Code of Conduct](CODE_OF_CONDUCT.md)** to ensure a welcoming environment.
+4. For security-related questions, see our **[Security Policy](SECURITY.md)**.
+
+---
+
+## ⚖️ Open Source & License
+
+This project is fully open-source and free to use, modify, distribute, and build upon.
+
+* All software, documentation, and blueprint materials are distributed under the **[MIT License](LICENSE)**.
+* Copyright (c) 2026 **Om Patel ([@Flux-15](https://github.com/Flux-15))** and Robotics Learning Hub Contributors.
+* Community contributions are welcomed and celebrated under the same open-source terms.
 
 ---
 
@@ -242,3 +255,4 @@ We are building the world's most complete, rigorous, and accessible robotics hub
 [ Back to Top ↑ ](#-the-robotics-learning-hub-)
 
 </div>
+

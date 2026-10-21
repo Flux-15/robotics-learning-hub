@@ -1,0 +1,30 @@
+name: 🐛 Bug / Broken Link Report
+description: Report a broken link, code error, or inaccurate documentation.
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the Robotics Learning Hub accurate and up to date!
+  - type: input
+    id: location
+    attributes:
+      label: File or Link Location
+      description: What file or URL is affected? (e.g. `ros/README.md#L45`)
+      placeholder: "e.g., control_systems/README.md"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the Bug or Error
+      description: Explain what is incorrect, broken, or outdated.
+      placeholder: "The link to X leads to a 404, or the formula in Y has an inverted sign."
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_fix
+    attributes:
+      label: Suggested Fix (Optional)
+      description: If you know how to correct it, share the fixed link or snippet!
+      placeholder: "Replace URL with https://..."

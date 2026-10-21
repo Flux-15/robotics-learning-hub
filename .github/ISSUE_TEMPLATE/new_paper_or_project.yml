@@ -1,0 +1,40 @@
+name: 🚀 Propose New Paper Review or Project Blueprint
+description: Suggest a new landmark research paper or hardware project to add to the hub.
+labels: ["enhancement", "content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest an impactful paper or hardware blueprint for the robotics community!
+  - type: dropdown
+    id: category
+    attributes:
+      label: Contribution Type
+      options:
+        - "Landmark Research Paper Review"
+        - "Hardware Project Blueprint"
+        - "Domain Knowledge Manual Expansion"
+        - "Cheatsheet / Code Snippet"
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title / Name of Paper or Project
+      placeholder: "e.g., Fast-LIO2, LeRobot SO-ARM100, ACT"
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Source URL (Paper arXiv / Code Repo / Docs)
+      placeholder: "https://arxiv.org/abs/..."
+    validations:
+      required: true
+  - type: textarea
+    id: value_proposition
+    attributes:
+      label: Why Should This Be Added?
+      description: Explain the mathematical, architectural, or practical significance of this addition.
+    validations:
+      required: true
