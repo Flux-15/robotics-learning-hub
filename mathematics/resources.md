@@ -1,32 +1,32 @@
-# Mathematics for Robotics Resources
+# 📐 Mathematics for Robotics Resources
+
+> [!TIP]
+> For the comprehensive mathematical derivation manual covering Lie Groups $SO(3)/SE(3)$, Product of Exponentials (PoE), Convex Optimization, and Gaussian estimation, see the **[Mathematics Guide](README.md)** and the **[Math Formulas Cheat Sheet](../cheatsheets/math-formulas-cheatsheet.md)**.
 
 ## Overview
-Robotics is applied mathematics. Linear algebra (transformations), calculus (optimization), and probability (filtering and perception) are the mathematical engines driving robot kinematics, dynamics, and AI.
+Robotics is applied spatial mathematics. Linear algebra (rigid body transformations), multivariable calculus (gradients and optimization), and probability (recursive Bayesian estimation) drive kinematics, dynamics, SLAM, and AI.
 
-## Official Documentation
-- Not applicable for foundational mathematics, see textbooks and course notes.
+## Official Textbooks & Free PDFs
+- [Modern Robotics: Mechanics, Planning, and Control (Lynch & Park - Free PDF)](http://modernrobotics.org/)
+- [Convex Optimization (Boyd & Vandenberghe - Free PDF)](https://web.stanford.edu/~boyd/cvxbook/)
+- [State Estimation for Robotics (Timothy D. Barfoot - Free PDF)](http://asrl.utias.utoronto.ca/~tdb/bib/barfoot_ser17.pdf)
+- [Planning Algorithms (Steven M. LaValle - Free Online Book)](https://planning.cs.uiuc.edu/)
 
-## YouTube Lectures
-- [Essence of Linear Algebra (3Blue1Brown)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-- [Essence of Calculus (3Blue1Brown)](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
-- [MIT 18.06 Linear Algebra (Gilbert Strang)](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/video_galleries/video-lectures/)
-
-## Online Courses
-- [Mathematics for Machine Learning Specialization (Coursera/Imperial College London)](https://www.coursera.org/specializations/mathematics-machine-learning)
-- [Probabilistic Systems Analysis (MIT OCW)](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/)
+## Online Courses & Video Lectures
+- [3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+- [3Blue1Brown: Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+- [MIT 18.06: Linear Algebra (Gilbert Strang)](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
+- [Stanford EE364a: Convex Optimization (Stephen Boyd)](https://see.stanford.edu/Course/EE364A)
+- [Coursera: Mathematics for Machine Learning Specialization (Imperial College London)](https://www.coursera.org/specializations/mathematics-machine-learning)
 
 ## Books
 - *Probabilistic Robotics* by Sebastian Thrun, Wolfram Burgard, and Dieter Fox
 - *Linear Algebra and Its Applications* by Gilbert Strang
-- *Convex Optimization* by Stephen Boyd and Lieven Vandenberghe
+- *Modern Robotics* by Kevin M. Lynch and Frank C. Park
+- *Introduction to Applied Linear Algebra* by Stephen Boyd and Lieven Vandenberghe
 
-## Research Papers
-- (Refer to the AI/ML and SLAM sections for mathematically dense papers)
-
-## GitHub Repositories
-- [SymPy](https://github.com/sympy/sympy) - Python library for symbolic mathematics (useful for deriving kinematics)
-- [Eigen](https://gitlab.com/libeigen/eigen) - C++ template library for linear algebra
-
-## Tutorial Articles
-- [Khan Academy: Multivariable Calculus](https://www.khanacademy.org/math/multivariable-calculus)
-- [Khan Academy: Statistics and Probability](https://www.khanacademy.org/math/statistics-probability)
+## Open-Source Mathematical Libraries
+- [Eigen](https://gitlab.com/libeigen/eigen) — C++ template library for linear algebra
+- [NxRLab/ModernRobotics](https://github.com/NxRLab/ModernRobotics) — Code library for the Modern Robotics textbook
+- [Ceres Solver](http://ceres-solver.org/) — Non-linear least squares optimization
+- [SymPy](https://github.com/sympy/sympy) — Python symbolic math library for deriving symbolic Jacobians and kinematics

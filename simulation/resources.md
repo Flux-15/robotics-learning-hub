@@ -1,28 +1,31 @@
-# Robot Simulation Resources
+# 🎮 Robot Simulation & Digital Twins Resources
+
+> [!TIP]
+> For the comprehensive engineering manual comparing Gazebo Harmonic, Isaac Sim, MuJoCo, and Drake, along with battle-tested Sim-to-Real strategies, see the **[Simulation Guide](README.md)**.
 
 ## Overview
-Simulators are critical to test paths, algorithms, and AI safely before deploying to expensive hardware. Tools range from physics engines (MuJoCo, PyBullet) to full-world simulators (Gazebo).
+Simulators are critical to test paths, algorithms, and AI safely before deploying to expensive hardware. Tools range from analytic contact physics engines (MuJoCo, Drake) to GPU-parallel environments (Isaac Sim) and full-world simulators (Gazebo).
 
 ## Official Documentation
-- [Gazebo Classic Tutorials](http://classic.gazebosim.org/tutorials)
-- [Ignition/Gazebo Sim Docs](https://gazebosim.org/docs)
+- [Gazebo Sim (Harmonic / Modern) Docs](https://gazebosim.org/docs)
+- [NVIDIA Isaac Lab Documentation](https://isaac-sim.github.io/IsaacLab/)
 - [MuJoCo Physics Documentation](https://mujoco.readthedocs.io/)
-- [PyBullet Quickstart Guide](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/edit#)
+- [Drake Physics Engine (MIT)](https://drake.mit.edu/)
 - [Webots User Guide](https://cyberbotics.com/doc/guide/index)
+- [PyBullet Quickstart Guide](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/edit#)
 
-## YouTube Lectures
-- [Gazebo Simulation Tutorials (The Construct)](https://www.youtube.com/c/TheConstruct)
+## YouTube Lectures & Tutorials
+- [The Construct Gazebo Tutorials](https://www.youtube.com/@TheConstruct)
+- [NVIDIA Developer: Isaac Sim Tutorials](https://www.youtube.com/@NVIDIADeveloper)
 - [Webots Official Tutorials](https://www.youtube.com/c/Cyberbotics)
 
 ## Books
-- Read specific documentation manuals; few traditional books exist solely for specific simulators given the rapid update cycle.
+- *Rigid Body Dynamics Algorithms* by Roy Featherstone
+- *Modern Robotics: Mechanics, Planning, and Control* by Kevin M. Lynch and Frank C. Park
 
 ## GitHub Repositories
-- [deepmind/mujoco](https://github.com/deepmind/mujoco)
-- [bulletphysics/bullet3](https://github.com/bulletphysics/bullet3)
-- [cyberbotics/webots](https://github.com/cyberbotics/webots)
-- [gazebosim/gz-sim](https://github.com/gazebosim/gz-sim)
-
-## Tutorial Articles
-- [Creating a URDF for Gazebo Simulation](http://classic.gazebosim.org/tutorials?tut=ros_urdf)
-- [Using OpenAI Gym with PyBullet](https://towardsdatascience.com/reinforcement-learning-with-pybullet-a-quick-start-guide-c58e7eb8cd63)
+- [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) — High-performance multi-joint contact physics
+- [gazebosim/gz-sim](https://github.com/gazebosim/gz-sim) — Modern Gazebo simulation engine
+- [isaac-sim/IsaacLab](https://github.com/isaac-sim/IsaacLab) — Modular robot learning framework on Isaac Sim
+- [RobotLocomotion/drake](https://github.com/RobotLocomotion/drake) — Model-based design and verification for robotics
+- [bulletphysics/bullet3](https://github.com/bulletphysics/bullet3) — Bullet and PyBullet physics SDK
